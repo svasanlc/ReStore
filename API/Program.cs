@@ -26,7 +26,9 @@ namespace API
                 logger.LogError(ex, "Problem migrating data");                
             } 
 
+            //This is where we initiate
             host.Run();
+
             
         }
 
